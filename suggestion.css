@@ -1,0 +1,51 @@
+.second-container {
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 90%;
+    width: 100%;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 210px;
+    padding-top: 85px;
+    background: rgb(19, 19, 19);
+    padding-bottom: 25px;
+    z-index: 5;
+    flex-wrap: nowrap;
+    flex-shrink: none;
+}
+
+.second-container .title ul{
+    display: flex;
+}
+
+.second-container .title ul li {
+    list-style: none;
+    font-size: 14px;
+    font-weight: regular;
+    transition: .3s ease background;
+    cursor: pointer;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.second-container .title ul li:hover {
+    background: rgba(128, 128, 128, 0.562);
+}
+
+
+.second-container .title ul li a {
+    text-decoration: none;
+}
+
+.second-container .title ul li {
+    margin-right: 20px;
+}
+
+.second-container .title ul li {
+    background: rgba(184, 184, 184, 0.158);
+    padding: 6px 17px;
+    border-radius: 8px;
+}

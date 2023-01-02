@@ -1,0 +1,146 @@
+.header {
+    position: fixed;
+    padding-top: 15px;
+    left: 0;
+    right: 0;
+    background: rgb(19, 19, 19);
+    height: 60px;
+    top: 0;
+    display: flex;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.384);
+    padding-bottom: 15px;
+    z-index: 100;
+}
+.left-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+.left-section .yt-logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+
+.left-section .hamburger {
+    width: 40px;
+    background: rgba(128, 128, 128, 0);
+    padding: 8px 8px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease background;
+}
+.left-section .hamburger:hover {
+    background: rgba(128, 128, 128, 0.24);
+}
+
+
+.middle-section {
+    flex: 1;
+    margin-left: 100px;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+}
+
+.middle-section .search-bar {
+    width: 600px;
+    min-width: 0;
+    justify-content: center;
+    height: 43px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    align-items: center;
+    padding-left: 10px;
+    color: white;
+    font-size: 17px;
+    background: rgb(19, 19, 19);
+    border: 1px solid rgba(128, 128, 128, 0.281);
+    padding-left: 20px;
+    outline: none;
+}
+
+.middle-section .search-bar:focus {
+    background: transparent;
+    border-color: rgba(0, 132, 255, 0.493);
+}
+.middle-section .search-icon {  
+    width: 63px;
+    padding: 10px 20px;
+    background: rgba(65, 65, 65, 0.384);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.281);
+    cursor: pointer;
+}
+
+.middle-section .search-icon:hover {
+    background: rgba(65, 65, 65, 0.637);
+}
+
+.middle-section .search-bar::placeholder {
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.middle-section .mic-icon {
+    width: 40px;
+    margin-left: 10px;
+    background: rgba(128, 128, 128, 0.144);
+    padding: 7px 7px;
+    border-radius: 20px;
+    transition: .3s ease background;
+    cursor: pointer;
+}
+
+.mic-icon:hover {
+    background: rgba(128, 128, 128, 0.377);
+}
+
+
+
+
+.right-section {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.right-section .upload {
+    width: 40px;
+    cursor: pointer;
+    background: rgba(128, 128, 128, 0);
+    border-radius: 20px;
+    padding: 7px 8px;
+    transition: .3s ease background;
+}
+.right-section .upload:hover {
+    background: rgba(128, 128, 128, 0.377);
+}
+
+.right-section .notification {
+    width: 40px;
+    margin: 0 25px;
+    background: rgba(128, 128, 128, 0);
+    border-radius: 20px;
+    padding: 8px 8px;
+    cursor: pointer;
+    transition: .3s ease background;
+}
+.right-section .notification:hover {
+    background: rgba(128, 128, 128, 0.377);
+}
+
+.right-section .channel-pict {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}

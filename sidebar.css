@@ -1,0 +1,92 @@
+.side-bar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 210px;
+    left: 0;
+    color: white;
+    align-items: flex-end;
+    font-size: 10px;
+    padding-top: 60px;
+    padding-left: 20px;
+    z-index: 6;
+}
+
+.icon-info {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 5px;
+    transition: .3s ease background;
+    cursor: pointer;
+}
+
+
+
+.icon-info:hover {
+    background: rgba(128, 128, 128, 0.233);
+}
+
+.side-bar p {
+    font-size: 12px;
+    font-weight: light;
+    font-family: Arial;
+}
+
+.side-bar-icons {
+    margin-right: 30px;
+    width: 24px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+}
+
+.sidebar-top {
+    width: 170px;
+    margin-bottom: px;
+    margin-top: 20px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.384);
+    padding: 10px;
+
+}
+
+.sidebar-top p {
+    margin-bottom: 10px;
+}
+
+.sidebar-bottom {
+    padding-left: 10px;
+    width: 170px;
+
+}
+
+.sidebar-bottom p {
+    margin-bottom: 10px;
+}
+
+.sidebar-bottom .show {
+    padding-bottom: 8px;
+}
+
+.sub-part {
+    width: 170px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.384);
+    padding: 10px;
+    border-top: 1px solid rgba(128, 128, 128, 0.384);
+}
+
+.sub-part .text-sub {
+    font-size: 18px;
+}
+
+.sub-part .side-bar-icons {
+    margin-right: 30px;
+    width: 24px;
+    border-radius: 50px;
+    margin-bottom: 8px;
+}
+
+.icon-info .show1 {
+    margin-bottom: 4px;
+}
